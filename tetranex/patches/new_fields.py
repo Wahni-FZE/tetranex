@@ -26,7 +26,7 @@ def execute():
                 {
                     "fieldname": "gross_weight",
                     "label": "Gross Weight",
-                    "fieldtype": "Data",
+                    "fieldtype": "Float",
                     "insert_after": "weight_uom",
                     "allow_on_submit": 1,
                 },
