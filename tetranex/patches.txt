@@ -5,6 +5,7 @@
 
 tetranex.patches.clean_gross_weight  #21-09-2026-00
 tetranex.patches.new_fields  #17-09-2026-06
+tetranex.patches.dn  #24-09-2026-00
 
 
 [post_model_sync]
