@@ -15,7 +15,8 @@ def execute():
                 {
                     "fieldname": "country_of_origin",
                     "label": "Country of Origin",
-                    "fieldtype": "Data",
+                    "fieldtype": "Link",
+                    "options": "Country",
                     "insert_after": "hs_code",
                     "allow_on_submit": 1,
                 },
