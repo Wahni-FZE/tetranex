@@ -7,6 +7,7 @@ tetranex.patches.clean_gross_weight  #21-09-2026-00
 tetranex.patches.new_fields  #17-09-2026-06
 tetranex.patches.dn  #24-09-2026-00
 tetranex.patches.cus_rfq  #01-10-2026-05
+tetranex.patches.child_table_field  #05-10-2026-02
 
 
 [post_model_sync]
