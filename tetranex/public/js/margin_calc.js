@@ -1,4 +1,13 @@
 frappe.ui.form.on("Quotation", {
+	// new quotation made from a Supplier Quotation: supplier quote price = supplier's rate
+	onload(frm) {
+		if (!frm.is_new() || !frm.doc.supplier_quotation) return;
+		(frm.doc.items || []).forEach((row) => {
+			if (!row.supplier_quote_price) row.supplier_quote_price = row.rate;
+		});
+		frm.refresh_field("items");
+	},
+
 	// margin above the table applies to every item
 	selling_margin(frm) {
 		(frm.doc.items || []).forEach((row) => {
