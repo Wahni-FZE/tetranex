@@ -11,6 +11,7 @@ tetranex.patches.child_table_field  #05-10-2026-02
 tetranex.patches.rfq_to_qtn  #08-10-2026-05
 tetranex.patches.dn_so  #15-10-2026-01
 tetranex.patches.sq_shipping_address  #21-10-2026-02
+tetranex.patches.dimension  #21-10-2026-01
 
 
 [post_model_sync]
